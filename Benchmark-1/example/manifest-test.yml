@@ -1,0 +1,12 @@
+---
+applications:
+  - name: benchmark1
+    path: target/benchmark-1.jar
+    routes:
+      - route: benchmark1.apps.dhccloud.com.cn
+    services:
+      - skywalking
+    env:
+      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
+      SW_AGENT_COLLECTOR_BACKEND_SERVICES: '192.168.100.80:11800'
+      SW_AGENT_NAME: 'benchmark1'

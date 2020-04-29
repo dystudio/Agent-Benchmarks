@@ -1,0 +1,8 @@
+---
+applications:
+  - name: benchmark
+    path: target/benchmark-1.jar
+    routes:
+      - route: benchmark.apps.dhccloud.com.cn
+    env:
+      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'

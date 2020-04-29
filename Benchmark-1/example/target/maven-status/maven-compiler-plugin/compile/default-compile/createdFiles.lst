@@ -1,0 +1,13 @@
+com\mysql\jdbc\Driver.class
+org\skywalking\apm\benchmark\example\util\Executor.class
+redis\clients\jedis\Jedis.class
+com\mysql\jdbc\SimulateConnection.class
+com\mysql\jdbc\SimulateResultSet.class
+com\mysql\jdbc\SimulateStatement.class
+org\skywalking\apm\benchmark\example\JedisConfiguration.class
+org\skywalking\apm\benchmark\example\entity\User.class
+com\mysql\jdbc\SimulatePreparedStatement.class
+org\skywalking\apm\benchmark\example\BenchmarkController.class
+org\skywalking\apm\benchmark\example\DataSourceConfiguration.class
+org\skywalking\apm\benchmark\example\ApplicationConfigAdapter.class
+org\skywalking\apm\benchmark\example\Main.class
